@@ -10,16 +10,35 @@
 \begin{cventries}
 
 %---------------------------------------------------------
+\cventry
+{Project Consultant} % Job title
+{AIM Consulting (Remote)} % Organization
+{Seattle, WA} % Location
+{Mar. 2022 - Current} % Date(s)
+{
+  \begin{cvitems} % Description(s) of tasks/responsibilities
+    \item[] {Fullstack / Sr. Javascript Developer at SRS Acquiom}
+    \item[]
+    \item {Built Svelte based microfrontends based on client created template. Implemented UI and functionality following concurrently changing designs with limited specifications, creating DRY reusable patterns for modal templating, api request handling, etc.}
+    \item {Helped establish and push for best practices/standards for Typescript, Tailwind, linting, Jest unit testing, and other project configuration and overhead. Increased test coverage significantly to cover gaps and push toward longterm maintainability and CICD.}
+    \item {Built Jenkins pipelines and helped establish patterns for CICD according to client's wants. Implemented and augmented streams of jobs from Bitbucket into multiple Jenkins jobs that built, deployed, reestablished blank state test data, ran integration tests, and deployed to downstream/close to production environments.}
+    \item {Built Express, Kafka, Flyway, and Postgresdb based microservices based on client created templates. Added and augmented functionality for API endpoints, retrieving/updating data from Postgresdb, and receiving data from Kafka brokers. Established and argued for DRY maintainable patterns where possible. Fixed bugs and upped code coverage where possible, especially in templated code.}
+    \item {Implemented and established a pattern for spinning up and using a local Kubernetes cluster for deploying microservices for development purposes. Built and documented step by step approach from scratch for client dev's needs. Established Istio JWT security token configuration for client usage. Worked with client devs to generate test tokens and example code for client development purposes.}
+    \item {Implemented pytest docker compose stack for client QE usage. Updated and configured local Kafka instance for test usage. Augmented client scripts to allow publishing test data to test kafka instance, and established pattern for using pytest to publish to local Kafka brokers, query postgresdb, and assert expected outcomes. Helped establish variation of pytest docker compose stack for Jenkins pipeline, testing against Kafka instances in already established environments.}
+  \end{cvitems}
+}
+
+%---------------------------------------------------------
   \cventry
     {Project Consultant} % Job title
     {AIM Consulting (Remote)} % Organization
     {Seattle, WA} % Location
-    {Sep. 2021 - Feb. 2022} % Date(s)
+    {Sep. 2021 - Mar. 2022} % Date(s)
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item[] {SDET on the Insurance Manager team for Medinformatix}
+        \item[] {SDET / Fullstack on the Insurance Manager team for Medinformatix}
         \item[]
-        \item {Main contributor on the frontend Cypress e2e automation framework. Built page object model class extension framework from scratch as a DRY, maintainable approach to UI automated testing. Developed library of common field test helpers for rapid testing of tables, forms, and modals. Reduced test spec writing times to minimal quick efforts. Implemented API call interceptions and mock response data in e2e suite to fully isolate UI testing from backend changes. Implemented test sandbox with complete suite of interception/mock data to replicate fully integrated frontend environment, before significant frontend integration with backend services.}
+        \item {Main contributor on the frontend Cypress e2e automation framework. Built page object model class extension framework from scratch as a DRY, maintainable approach to UI automated testing. Developed library of common field test helpers for rapid testing of tables, forms, and modals. Reduced test spec writing times to minimal quick efforts. Implemented API call interceptions and mock response data in e2e suite to fully isolate UI testing from backend changes. Implemented test sandbox with complete suite of interception/mock data to replicate fully integrated frontend environment.}
         \item {Contributed to Angular frontend project to unblock test automation efforts. Implemented placeholder services with 100\% unit test coverage for e2e API call interception. Implemented frontend bug fixes for functional and design issues.}
         \item {Contributed to backend Cypress e2e automation framework. Updated and implemented new support functions and e2e tests. Debugged and fixed api e2e issues in Bitbucket/AWS. Refactored e2e suite when team moved from API keys to JWT. Helped refactor API e2e project from heavily docker dependent to dockerless implementation.}
         \item {Updated and deployed cloud formation templates, bitbucket configurations, docker/docker compose configurations, typescript/eslint/npm configurations in service of streamlining running and deploying e2e (both UI and API) into our delivery pipelines.}
