@@ -1,0 +1,183 @@
+[
+    {
+        "job": "Project Consultant",
+        "org": "AIM Consulting (Remote)",
+        "location": "Seattle, WA",
+        "date": "Mar. 2022 - Current",
+        "cvitems": {
+            "header": "Fullstack / Sr. Javascript Developer on the MAP and SHARP teams at SRS Acquiom",
+            "items": [
+                "Built Svelte based microfrontends based on client created template. Implemented UI and functionality following concurrently changing designs with limited specifications, creating DRY reusable patterns for modal templating, api request handling, etc. Implemented POC integration of several components into demo container application.",
+                "Helped establish and push for best practices/standards for Typescript, Tailwind, linting, Jest unit testing, and other project configuration and overhead. Increased test coverage significantly to cover gaps and push toward longterm maintainability and CICD.",
+                "Built Jenkins pipelines and helped establish patterns for CICD according to client's wants. Implemented and augmented streams of jobs from Bitbucket into multiple Jenkins jobs that built, deployed, reestablished blank state test data, ran integration tests, and deployed to downstream/close to production environments.",
+                "Built Express, Kafka, Flyway, and Postgresdb based microservices based on client created templates. Added and augmented functionality for API endpoints, retrieving/updating data from Postgresdb, and receiving data from Kafka brokers. Implemented authorization placeholder mock service and authorization logic for microservice db lookups. Established and argued for DRY maintainable patterns where possible. Fixed bugs and upped code coverage where possible, especially in templated code.",
+                "Implemented and established a pattern for spinning up and using a local Kubernetes cluster for deploying microservices for development purposes. Built and documented step by step approach from scratch for client dev's needs. Established Istio JWT security token configuration for client usage. Worked with client devs to generate test tokens and example code for client development purposes.",
+                "Implemented pytest docker compose stack for client QE usage. Updated and configured local Kafka instance for test usage. Augmented client scripts to allow publishing test data to test kafka instance, and established pattern for using pytest to publish flexible sets of test data to local Kafka brokers, query postgresdb, and assert expected outcomes. Helped establish variation of pytest docker compose stack for Jenkins pipeline, testing against Kafka instances in already established environments."        
+            ]
+        }
+    },
+    {
+        "job": "Project Consultant",
+        "org": "AIM Consulting (Remote)",
+        "location": "Seattle, WA",
+        "date": "Sep. 2021 - Mar. 2022",
+        "cvitems": {
+            "header": "SDET / Fullstack on the Insurance Manager team for Medinformatix",
+            "items": [
+                "Main contributor on the frontend Cypress e2e automation framework. Built page object model class extension framework from scratch as a DRY, maintainable approach to UI automated testing. Developed library of common field test helpers for rapid testing. Reduced test spec writing times to minimal quick efforts. Implemented API call interceptions and mock response data in e2e suite to fully isolate UI testing from backend changes. Implemented test sandbox with complete suite of interception/mock data to replicate fully integrated frontend environment.",
+                "Contributed to Angular frontend project to unblock test automation efforts. Implemented placeholder services with 100\\% unit test coverage for e2e API call interception. Implemented frontend bug fixes for functional and design issues.",
+                "Contributed to backend Cypress e2e automation framework. Updated and implemented new support functions and e2e tests. Debugged and fixed api e2e issues in Bitbucket/AWS. Helped refactor API e2e project from heavily docker dependent to dockerless implementation.",
+                "Updated and deployed cloud formation templates, bitbucket configurations, docker/docker compose configurations, typescript/eslint/npm configurations in service of streamlining running and deploying e2e (both UI and API) into our delivery pipelines.",
+                "Rapid investigation and fixing of both UI and API e2e issues in our delivery pipelines.",
+                "Took opportunity to contribute to API project with code duplication reduction, swagger updates, and service contract writing.",
+                "Paired and worked with every single developer (frontend, backend, fellow SDET) on the IM team to swarm on frontend, backend, e2e tasks.",
+                "Wrote BDD based test cases for UI and API stories. Reviewed story requirements, data contracts, acceptance criteria and chased down missing information and requirements to fill in gaps in client expectations and designs. Wrote bugs and ran bug triage sessions."
+            ]
+        }
+    },
+    {
+        "job": "Software Engineer",
+        "org": "Lululemon",
+        "location": "Seattle, WA",
+        "date": "Nov. 2018 - Apr. 2021",
+        "cvitems": {
+            "header": "Senior member of Software Development Engineer in Test team.",
+            "items": [
+                "Contributed major features to Javascript WebdriverIO based frameworks. Created configuration system for multiple browsers/form factors. Created ci/cd friendly environmental variable system. Integrated framework into Travis. Created AWS S3 reporting with historical trends. Created test data system for dysfunctional test environments. Created main library of helpers. From green field project to full fledged framework in daily use by 3+ teams.",
+                "Lead on switch to Typescript based WebdriverIO framework, including updating/converting entire original framework and tests. Resulted in significant reduction of issues from all code contributions including: incorrect api usage, false positives, name collisions, incorrect arguments, etc.",
+                "Contributed major features to supertest based framework for API testing. Created DRY system of endpoint and test definitions with response schemas, flexible enough for customizable single tests or changing whole suites of tests at once. Implemented automatic test kickoff after backend code deploy.",
+                "Lead SDET for bringing test framework into process for a consumer team. Reduced sprint regression time from 16 hours to 1 hour plus a 10 minute automation suite. Mentored interested QA engineers in ES6/JS, git, and good code practices. Helped convert QA engineer with potential into full time automation engineer."
+            ]
+        }
+    },
+    {
+        "job": "Software Engineer",
+        "org": "Glympse",
+        "location": "Seattle, WA",
+        "date": "Jul. 2016 - Jul. 2018",
+        "cvitems": {
+            "header": "Developer on frontend team. Owned and maintained Glympse's suite of web applications, from core location tracking products, websites, and POC initiatives for new business opportunities, to support tools for internal usage. Supported quality and test effort where appropriate. Spent second half of employment as only remaining member of Seattle frontend team, taking on all additional challenges that entailed",
+            "items": [
+                "Worked directly with all other teams to iterate and improve Glympse offerings in 2 week sprints, implementing new features, fixing bugs, refactoring old code, and improving process, internal tooling, and deployment pipelines. Duties ranged from small <1 day fixes to multi week epics. ",
+                "Took on and owned unfamiliar responsibilities whenever necessary, on existing or new projects, including new languages/technologies (python, bash, jinja, .NET, Wordpress, or Tizen). In second year, also accepted leadership sanctioned 100\\% randomized role doing emergency and/or fast-paced fixes solo for other teams, and sole supporter of legacy frontend projects in ASP.NET and Meteor",
+                "Some major projects include: implementing multi-threaded PhantomJS/Jinja2 template verification system for post deployment test; implementing Cypress.io POC for test automation; revamping multiple projects into single scalable templating system driven by JSON config changes; helping create scripted grunt/webpack/aws s3 build system for fast and automatic deployments; rebuilding entire Google Analytics framework for core frontend projects, from full analysis of broken legacy system to complete reimplementation and additional behavior tracking",
+                "Supported offshore development team; knowledge transfer and support as leadership of that team changed, streamlined workflow and communication issues between Seattle and Belarus and other teams"
+            ]
+        }
+    },
+    {
+        "exclude": true,
+        "job": "Mobile Applications Developer",
+        "org": "Holland America Line",
+        "location": "Seattle, WA",
+        "date": "Jun. 2015 - Jul. 2016",
+        "cvitems": {
+            "header": "Frontend developer on Mobile Applications team. Went from SDET to developer on the job. Continued support of test efforts where appropriate. Responsible for UI updates, helping to script and implement new deployment process, maintaining and optimizing app environment on all target cruise ships",
+            "items": [
+                "Part of effort to proof, test, and document new VM deployment setup and process. Traveled to multiple HAL ships (ms Eurodam and Koningsdam, latter solo trip) and successfully deployed new VM to replace older setup. Successful proof of concept of process for all other ships in the fleet. Collaborated with onboard crew to fix data issues, and performed on the fly application upgrades to fix cross team issues",
+                "Performed bash scripting, log analysis, remote deploys and other DevOps support tasks",
+                "Prototyped and implemented coordinate system for displaying event locations",
+                "Refactored gulp and grunt pipelines for unit testing, local deploys, production packaging, and other logic pathing for multi brand/environment support",
+                "Implemented single-click api mocking, allowing application to run without necessitating being connected to the backend for development and/or demo purposes",
+                "Implemented feature flagging plugin and service, allowing application features to be turned on and off via a JSON file without impacting other functionality"
+            ]
+        }
+    },
+    {
+        "exclude": true,
+        "job": "SDET",
+        "org": "Holland America Line",
+        "location": "Seattle, WA",
+        "date": "Dec. 2014 - Jun. 2015",
+        "cvitems": {
+            "header": "SDET on Mobile Applications team. Went from QA to SDET on the job. Tested the HAL Mobile Guest Experience Application with both manual and automated techniques. Began contributing bug fixes and functional updates to application code",
+            "items": [
+                "Helped revamp automation test suite to better sync with industry standards",
+                "Brought e2e automated test suite from non-working to functional status",
+                "Switched between manual and automated testing to provide as much quality coverage as possible per project time constraints",
+                "Wrote automation tests in Protractor/Jasmine",
+                "Swarmed on application development tasks as the need arose with bug fixes and functionality updates"
+            ]
+        }
+    },
+    {
+        "exclude": true,
+        "job": "QA Tester",
+        "org": "Holland America Line",
+        "location": "Seattle, WA",
+        "date": "Oct. 2014 - Dec. 2014",
+        "cvitems": {
+            "header": "Responsible for manual testing of the HAL Mobile Guest Experience Application.",
+            "items": [
+                "Helped to revamp QA and agile process toward industry standards",
+                "Developed complete test case suite based on existing or lack of business requirements from scratch",
+                "Worked closely with developers on improving user experience with or in spite of available design guidelines",
+                "Improved communication of quality issues exponentially",
+                "Enforced documentation of processes and standards",
+                "Performed functional and regression testing on responsive application across multiple browsers and platforms"
+            ]
+        }
+    },
+    {
+        "exclude": true,
+        "job": "Contract QA Tester",
+        "org": "LiveAreaLabs",
+        "location": "Seattle, WA",
+        "date": "Jul. 2014 - Sep. 2014",
+        "cvitems": {
+            "header": "Temporary contract QA for seasonal eCommerce website overhaul",
+            "items": [
+                "Responsible for testing eCommerce websites based on the Demandware platform",
+                "Created test cases based on wireframes and comps",
+                "Investigated and adapted to design inconsistencies and/or shifting client demands",
+                "Performed functional and regression testing on responsive sites across desktop, tablet, and mobile"
+            ]
+        }
+    },
+    {
+        "exclude": true,
+        "job": "QA Engineer",
+        "org": "Ratio LLC/Cypress Consulting",
+        "location": "Seattle, WA",
+        "date": "Aug. 2012 - Feb. 2014",
+        "cvitems": {
+            "header": "Responsible for testing applications and taking lead on testing efforts across multiple projects",
+            "items": [
+                "Performed gray box regression, functional, ad hoc testing on websites and mobile apps",
+                "Automated repetitive tasks and learned test automation techniques",
+                "Utilized tools like Fiddler to simulate unique test scenarios",
+                "Worked closely with developers to optimize testing effort",
+                "Created builds for testing and for client releases",
+                "Documented build process and environment setup",
+                "Helped strategize testing effort and documented with a formal test plan",
+                "Created a test cases template for the general QA team with automatic statistics"
+            ]
+        }
+    },
+    {
+        "exclude": true,
+        "job": "QA Engineer",
+        "org": "Zeebo, Inc.",
+        "location": "San Diego, CA",
+        "date": "Sep. 2008 - Jan. 2012",
+        "cvitems": {
+            "header": "Responsible for UI and hardware black/grey box testing (functional, regression, and more)",
+            "items": [
+                "Ran functional tests on new features, wrote bugs to TTPro and later Redmine system, ran regression tests on fixed bugs, took logs using Qualcomm logging systems, ran specialized tests whenever necessary in cooperation with developers",
+                "Coordination with UI developer lead in person and by email",
+                "Helping to design and create a remote/international testing system by creative usage of available resources, to replace failed contract by professional remote testing company, allowing potential testing of device units in China, Brazil, or India from San Diego office",
+                "Configured, created and published UI software packages for Zeebo's initial product throughout the entire commercial lifetime of the product through three years, to all end users in Brazil and Mexico, maintaining revision control and backups of major packages customized for Spanish or Portuguese language where applicable"
+            ]
+        }
+    },
+    {
+        "job": "",
+        "org": "Further details on Linkedin",
+        "location": "",
+        "date": "",
+        "cvitems": {
+            "header": "",
+            "items": []
+        }
+    }
+]
