@@ -44,7 +44,7 @@ function writeCvEntry(logger, cventry, abbreviated) {
 
 
     if (abbreviated && cventry.exclude) {
-        logger.write(`{}\n`);
+        logger.write(`{}\n\n`);
     } else {
         logger.write(`{\n`);
         latexCommand(logger, "begin", "cvitems");

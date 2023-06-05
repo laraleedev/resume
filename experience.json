@@ -171,8 +171,9 @@
         }
     },
     {
+        "exclude": true,
         "job": "",
-        "org": "Further details on Linkedin",
+        "org": "Further details available on Linkedin",
         "location": "",
         "date": "",
         "cvitems": {
