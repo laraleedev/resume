@@ -1,39 +1,29 @@
 [
     {
-        "job": "Project Consultant",
+        "job": "Project Consultant - Senior Javascript Fullstack Developer, SRS Acquiom",
         "org": "AIM Consulting (Remote)",
         "location": "Seattle, WA",
         "date": "Mar. 2022 - Current",
         "cvitems": {
-            "header": "Fullstack / Sr. Javascript Developer on the MAP and SHARP teams at SRS Acquiom",
             "items": [
-                "Built component library/microfrontend repos in Stenciljs from scratch, with PostCSS, Tailwind, and custom templates. Implemented parallel build/watch processes, bootstrapping for environmentally differentiated distribution, integration of both repos, toggling between S3 and offline development, CICD Bitbucket/Jenkinsfile configurations, convenience generation of new components/mfes, and generic custom elements and stylings and spearheaded approaches for shifting content, element types/classes/unique ids/stylings, asset handling, and responsive recalculation of content sizing.",
-                "Built Svelte based microfrontends. Implemented UI and functionality following changing designs with limited specifications, creating reusable patterns for modal templating, api request handling, etc.",
-                "Helped establish best practices/standards for Typescript/code standards and linting with emphasis on DRY maintainable patterns. Increased test coverage significantly.",
-                "Built Jenkins pipelines and helped establish patterns for CICD. Implemented streams of jobs from Bitbucket into multiple Jenkins pipelines that built/tested/deployed.",
-                "Built Express/Kafka/Flyway/Postgresdb microservices. Implemented functionality for API endpoints, retrieving/updating data from Postgresdb, consuming Kafka data, and authorization service and authorization logic.",
-                "Implemented pattern for utilizing local Kubernetes cluster for development of authentication/authorization. Built and documented step by step approach from scratch. Established Istio JWT security token configuration.",
-                "Implemented pytest docker kafka/postgresdb stack for client QEs both locally and in Jenkins pipelines/multiple environments, and logic to allow publishing test data to local Kafka brokers and querying postgresdb for test needs.",
-                "Worked quickly and independently under pressure with vague definitions and unclear, iterative guidelines to meet client needs to satisfaction."
+                "Project 2: \\textbf{Microfrontend} development in \\textbf{Stencil}, \\textbf{Typescript}, \\textbf{PostCSS}, and \\textbf{Tailwind}, with \\textbf{Bitbucket}, \\textbf{Jenkins}, \\textbf{Jest}, and \\textbf{Puppeteer}.",
+                "Project 2: \\textbf{Built frontend repos for new component library and microfrontends} from scratch, including \\textbf{full implementation of frontend tech stack}, and \\textbf{creation of development, build, and deployment processes} up through the \\textbf{CICD pipeline}. \\textbf{Built first components} and \\textbf{set standards and processes} for rest of team.",
+                "Project 1: \\textbf{Microfrontend} development in \\textbf{Svelte}, \\textbf{Typescript}, \\textbf{SASS}, and \\textbf{Tailwind}. \\textbf{Microservices} development in \\textbf{Express} and \\textbf{Kafkajs}. Additional work in \\textbf{Docker / Docker Compose}, \\textbf{Bitbucket}, \\textbf{Jenkins}, \\textbf{Kubernetes}, \\textbf{AWS}, \\textbf{Istio}, and \\textbf{Logz.io}.",
+                "Project 1: \\textbf{Took on major technical challenges} and \\textbf{established new processes and best practices with raised standards and increased test coverage} across the entire stack, for more reliable delivery of business needs.",
+                "\\textbf{Consistently delivered client satisfaction} with vague definitions and unclear iterative guidelines."
             ]
         }
     },
     {
-        "job": "Project Consultant",
+        "job": "Project Consultant - SDET / Fullstack developer, Medinformatix",
         "org": "AIM Consulting (Remote)",
         "location": "Seattle, WA",
         "date": "Sep. 2021 - Mar. 2022",
         "cvitems": {
-            "header": "SDET / Fullstack on the Insurance Manager team for Medinformatix",
             "items": [
-                "Main contributor on the frontend Cypress e2e automation framework. Built page object model class extension framework from scratch as a DRY, maintainable approach to UI automated testing. Developed library of common field test helpers for rapid testing. Reduced test spec writing times to minimal quick efforts. Implemented API call interceptions and mock response data in e2e suite to fully isolate UI testing from backend changes. Implemented test sandbox with complete suite of interception/mock data to replicate fully integrated frontend environment.",
-                "Contributed to Angular frontend project to unblock test automation efforts. Implemented placeholder services with 100\\% unit test coverage for e2e API call interception. Implemented frontend bug fixes for functional and design issues.",
-                "Contributed to backend Cypress e2e automation framework. Updated and implemented new support functions and e2e tests. Debugged and fixed api e2e issues in Bitbucket/AWS. Helped refactor API e2e project from heavily docker dependent to dockerless implementation.",
-                "Updated and deployed cloud formation templates, bitbucket configurations, docker/docker compose configurations, typescript/eslint/npm configurations in service of streamlining running and deploying e2e (both UI and API) into our delivery pipelines.",
-                "Rapid investigation and fixing of both UI and API e2e issues in our delivery pipelines.",
-                "Took opportunity to contribute to API project with code duplication reduction, swagger updates, and service contract writing.",
-                "Paired and worked with every single developer (frontend, backend, fellow SDET) on the IM team to swarm on frontend, backend, e2e tasks.",
-                "Wrote BDD based test cases for UI and API stories. Reviewed story requirements, data contracts, acceptance criteria and chased down missing information and requirements to fill in gaps in client expectations and designs. Wrote bugs and ran bug triage sessions."
+                "\\textbf{Test automation} development in \\textbf{Cypress} and \\textbf{Typescript}. \\textbf{Frontend} development in \\textbf{Angular} and \\textbf{Typescript}. \\textbf{Backend} services work in \\textbf{Express}. Additional work in \\textbf{Jest}, \\textbf{Gulp}, and \\textbf{Webpack}.",
+                "\\textbf{Built DRY, easily maintainable page object class inheritance automation framework} to test a complex and evolving frontend, along with API call interceptions and mock response data, allowing \\textbf{quick and efficient testing of a completely decoupled frontend} following a \\textbf{test driven development} philosophy, well before frontend and backend integration was complete.",
+                "\\textbf{Contributed to frontend and backend projects with bug fixes and functional updates} to support desynced front and backend development efforts. \\textbf{Swarmed on every aspect of the project} from frontend and backend to build processes and devops."
             ]
         }
     },
@@ -43,7 +33,6 @@
         "location": "Seattle, WA",
         "date": "Nov. 2018 - Apr. 2021",
         "cvitems": {
-            "header": "Senior member of Software Development Engineer in Test team.",
             "items": [
                 "Contributed major features to Javascript WebdriverIO based frameworks. Created configuration system for multiple browsers/form factors. Created ci/cd friendly environmental variable system. Integrated framework into Travis. Created AWS S3 reporting with historical trends. Created test data system for dysfunctional test environments. Created main library of helpers. From green field project to full fledged framework in daily use by 3+ teams.",
                 "Lead on switch to Typescript based WebdriverIO framework, including updating/converting entire original framework and tests. Resulted in significant reduction of issues from all code contributions including: incorrect api usage, false positives, name collisions, incorrect arguments, etc.",

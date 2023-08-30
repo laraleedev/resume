@@ -48,8 +48,8 @@ function writeCvEntry(logger, cventry, abbreviated) {
     } else {
         logger.write(`{\n`);
         latexCommand(logger, "begin", "cvitems");
-        logger.write(`\\item[] {${cventry.cvitems.header}}\n`);
-        logger.write(`\\item[]\n`);
+        // logger.write(`\\item[] {${cventry.cvitems.header}}\n`);
+        // logger.write(`\\item[]\n`);
 
         for (let index = 0; index < cventry.cvitems.items.length; index++) {
             logger.write(`\\item {${cventry.cvitems.items[index]}}\n`);
