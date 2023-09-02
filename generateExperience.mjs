@@ -4,6 +4,11 @@ import {dirname} from "path";
 
 const jsonExp = JSON.parse(fs.readFileSync("./experience.json"));
 
+const abbrEnum = {
+    OMIT: 'OMIT',
+    PARTIAL: 'PARTIAL'
+}
+
 /********************************************************
  * Helpers
  ********************************************************/
@@ -25,6 +30,7 @@ function commonHeader(logger) {
 }
 
 function commonFooter(logger) {
+    writeCvEntry(logger, {job: "", org: "Further details available on Linkedin", location: "", date: "", abbreviate: true}, abbrEnum.PARTIAL);
     commentLine(logger);
     latexCommand(logger, "end", "cventries");
 }
@@ -34,7 +40,11 @@ function latexCommand(logger, name, content) {
     logger.write(`\\${name}` + (content ? `{${content}}` : "") + `\n`);
 }
 
-function writeCvEntry(logger, cventry, abbreviated) {
+function writeCvEntry(logger, cventry, abbr) {
+    if (abbr === abbrEnum.OMIT && cventry.abbreviate) {
+        return;
+    }
+
     commentLine(logger);
     latexCommand(logger, "cventry");
     logger.write(`{${cventry.job}} % Job title\n`);
@@ -43,7 +53,7 @@ function writeCvEntry(logger, cventry, abbreviated) {
     logger.write(`{${cventry.date}} % Date(s)\n`);
 
 
-    if (abbreviated && cventry.exclude) {
+    if (abbr === abbrEnum.PARTIAL && cventry.abbreviate) {
         logger.write(`{}\n\n`);
     } else {
         logger.write(`{\n`);
@@ -77,13 +87,27 @@ full.end();
 /********************************************************
  * Abbreviated Exp Output
  ********************************************************/
-var abbreviated = fs.createWriteStream("resume/experience.tex", {});
+var abbreviated = fs.createWriteStream("resume/_ABBR-experience.tex", {});
 
 commonHeader(abbreviated);
 
 for (let index = 0; index < jsonExp.length; index++) {
-    writeCvEntry(abbreviated, jsonExp[index], true);
+    writeCvEntry(abbreviated, jsonExp[index], abbrEnum.PARTIAL);
 }
 
 commonFooter(abbreviated);
 abbreviated.end();
+
+/********************************************************
+ * Omitted Exp Output
+ ********************************************************/
+var omitted = fs.createWriteStream("resume/experience.tex", {});
+
+commonHeader(omitted);
+
+for (let index = 0; index < jsonExp.length; index++) {
+    writeCvEntry(omitted, jsonExp[index], abbrEnum.OMIT);
+}
+
+commonFooter(omitted);
+omitted.end();

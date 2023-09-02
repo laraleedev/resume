@@ -3,13 +3,13 @@
         "job": "Project Consultant - Senior Javascript Fullstack Developer, SRS Acquiom",
         "org": "AIM Consulting (Remote)",
         "location": "Seattle, WA",
-        "date": "Mar. 2022 - Current",
+        "date": "March 2022 - Current",
         "cvitems": {
             "items": [
-                "Project 2: \\textbf{Microfrontend} development in \\textbf{Stencil}, \\textbf{Typescript}, \\textbf{PostCSS}, and \\textbf{Tailwind}, with \\textbf{Bitbucket}, \\textbf{Jenkins}, \\textbf{Jest}, and \\textbf{Puppeteer}.",
-                "Project 2: \\textbf{Built frontend repos for new component library and microfrontends} from scratch, including \\textbf{full implementation of frontend tech stack}, and \\textbf{creation of development, build, and deployment processes} up through the \\textbf{CICD pipeline}. \\textbf{Built first components} and \\textbf{set standards and processes} for rest of team.",
-                "Project 1: \\textbf{Microfrontend} development in \\textbf{Svelte}, \\textbf{Typescript}, \\textbf{SASS}, and \\textbf{Tailwind}. \\textbf{Microservices} development in \\textbf{Express} and \\textbf{Kafkajs}. Additional work in \\textbf{Docker / Docker Compose}, \\textbf{Bitbucket}, \\textbf{Jenkins}, \\textbf{Kubernetes}, \\textbf{AWS}, \\textbf{Istio}, and \\textbf{Logz.io}.",
-                "Project 1: \\textbf{Took on major technical challenges} and \\textbf{established new processes and best practices with raised standards and increased test coverage} across the entire stack, for more reliable delivery of business needs.",
+                "Project 2: \\textbf{Microfrontend} development in \\textbf{Stencil}, \\textbf{Typescript}, \\textbf{PostCSS}, and \\textbf{Tailwind}, with \\textbf{Bitbucket Pipelines}, \\textbf{Jenkins}, and \\textbf{Jest}.",
+                "Project 2: \\textbf{Built frontend repos for new component library and microfrontends}, including \\textbf{creation of development, build, and deployment processes} up through \\textbf{CICD pipeline}, \\textbf{setting standards and processes} for rest of team. Built new \\textbf{custom elements} / \\textbf{web components} for component library.",
+                "Project 1: \\textbf{Microfrontend} development in \\textbf{Svelte}, \\textbf{Typescript}, \\textbf{HTML}, \\textbf{SASS}, and \\textbf{Tailwind}. \\textbf{Microservices} development in \\textbf{Express}, \\textbf{Kafkajs}, \\textbf{PostgreSQL}, \\textbf{Flyway}, and \\textbf{Node.js}. Additional work in \\textbf{Docker} / \\textbf{Docker Compose}, \\textbf{Bitbucket Pipelines}, \\textbf{Jenkins}, \\textbf{Kubernetes} / \\textbf{Knative}, \\textbf{AWS}, \\textbf{Istio}, and \\textbf{Logz.io}.",
+                "Project 1: \\textbf{Took on major technical challenges} and \\textbf{established new processes and best practices and increased test coverage} across the entire stack",
                 "\\textbf{Consistently delivered client satisfaction} with vague definitions and unclear iterative guidelines."
             ]
         }
@@ -18,11 +18,11 @@
         "job": "Project Consultant - SDET / Fullstack developer, Medinformatix",
         "org": "AIM Consulting (Remote)",
         "location": "Seattle, WA",
-        "date": "Sep. 2021 - Mar. 2022",
+        "date": "September 2021 - March 2022",
         "cvitems": {
             "items": [
-                "\\textbf{Test automation} development in \\textbf{Cypress} and \\textbf{Typescript}. \\textbf{Frontend} development in \\textbf{Angular} and \\textbf{Typescript}. \\textbf{Backend} services work in \\textbf{Express}. Additional work in \\textbf{Jest}, \\textbf{Gulp}, and \\textbf{Webpack}.",
-                "\\textbf{Built DRY, easily maintainable page object class inheritance automation framework} to test a complex and evolving frontend, along with API call interceptions and mock response data, allowing \\textbf{quick and efficient testing of a completely decoupled frontend} following a \\textbf{test driven development} philosophy, well before frontend and backend integration was complete.",
+                "\\textbf{Test automation} development in \\textbf{Cypress} and \\textbf{Typescript}. \\textbf{Frontend} development in \\textbf{Angular} and \\textbf{Typescript}. \\textbf{Backend} services work in \\textbf{Express} and \\textbf{Swagger}. Additional work in \\textbf{Jest}, \\textbf{Gulp}, and \\textbf{Webpack}.",
+                "\\textbf{Built DRY, easily maintainable page object class inheritance automation framework}, along with a system of \\textbf{API call interceptions and mock response data}, allowing \\textbf{quick efficient testing of a completely decoupled frontend} following a \\textbf{test driven development} philosophy.",
                 "\\textbf{Contributed to frontend and backend projects with bug fixes and functional updates} to support desynced front and backend development efforts. \\textbf{Swarmed on every aspect of the project} from frontend and backend to build processes and devops."
             ]
         }
@@ -31,13 +31,14 @@
         "job": "Software Engineer",
         "org": "Lululemon",
         "location": "Seattle, WA",
-        "date": "Nov. 2018 - Apr. 2021",
+        "date": "November 2018 - April 2021",
         "cvitems": {
             "items": [
-                "Contributed major features to Javascript WebdriverIO based frameworks. Created configuration system for multiple browsers/form factors. Created ci/cd friendly environmental variable system. Integrated framework into Travis. Created AWS S3 reporting with historical trends. Created test data system for dysfunctional test environments. Created main library of helpers. From green field project to full fledged framework in daily use by 3+ teams.",
-                "Lead on switch to Typescript based WebdriverIO framework, including updating/converting entire original framework and tests. Resulted in significant reduction of issues from all code contributions including: incorrect api usage, false positives, name collisions, incorrect arguments, etc.",
-                "Contributed major features to supertest based framework for API testing. Created DRY system of endpoint and test definitions with response schemas, flexible enough for customizable single tests or changing whole suites of tests at once. Implemented automatic test kickoff after backend code deploy.",
-                "Lead SDET for bringing test framework into process for a consumer team. Reduced sprint regression time from 16 hours to 1 hour plus a 10 minute automation suite. Mentored interested QA engineers in ES6/JS, git, and good code practices. Helped convert QA engineer with potential into full time automation engineer."
+                "\\textbf{Test automation} development in \\textbf{Typescript}, \\textbf{WebdriverIO}, \\textbf{Javascript}, \\textbf{Travis}, \\textbf{AWS}, \\textbf{Selenium}, \\textbf{Postman}, \\textbf{Puppeteer}, and \\textbf{Supertest}.",
+                "\\textbf{Reduced sprint regression time by over 92\\%}, from 16 hours to 1 hour and 10 minutes.",
+                "Developed automation projects \\textbf{from green field to full fledged CICD integrated suites with AWS S3 reporting in use by 3+ teams}.",
+                "Converted entire project from Javascript to Typescript and \\textbf{significantly reduced false positives} from incorrect usage.",
+                "\\textbf{Mentored manual QA engineers} in Javascript, git, and coding practices."
             ]
         }
     },
@@ -45,26 +46,25 @@
         "job": "Software Engineer",
         "org": "Glympse",
         "location": "Seattle, WA",
-        "date": "Jul. 2016 - Jul. 2018",
+        "date": "July 2016 - July 2018",
         "cvitems": {
-            "header": "Developer on frontend team. Owned and maintained Glympse's suite of web applications, from core location tracking products, websites, and POC initiatives for new business opportunities, to support tools for internal usage. Supported quality and test effort where appropriate. Spent second half of employment as only remaining member of Seattle frontend team, taking on all additional challenges that entailed",
             "items": [
-                "Worked directly with all other teams to iterate and improve Glympse offerings in 2 week sprints, implementing new features, fixing bugs, refactoring old code, and improving process, internal tooling, and deployment pipelines. Duties ranged from small <1 day fixes to multi week epics. ",
-                "Took on and owned unfamiliar responsibilities whenever necessary, on existing or new projects, including new languages/technologies (python, bash, jinja, .NET, Wordpress, or Tizen). In second year, also accepted leadership sanctioned 100\\% randomized role doing emergency and/or fast-paced fixes solo for other teams, and sole supporter of legacy frontend projects in ASP.NET and Meteor",
-                "Some major projects include: implementing multi-threaded PhantomJS/Jinja2 template verification system for post deployment test; implementing Cypress.io POC for test automation; revamping multiple projects into single scalable templating system driven by JSON config changes; helping create scripted grunt/webpack/aws s3 build system for fast and automatic deployments; rebuilding entire Google Analytics framework for core frontend projects, from full analysis of broken legacy system to complete reimplementation and additional behavior tracking",
-                "Supported offshore development team; knowledge transfer and support as leadership of that team changed, streamlined workflow and communication issues between Seattle and Belarus and other teams"
+                "\\textbf{Frontend} development in \\textbf{Javascript}, \\textbf{jQuery}, \\textbf{Angular}, \\textbf{HTML}, \\textbf{CSS} / \\textbf{SASS} / \\textbf{Less}, \\textbf{Grunt}, \\textbf{Webpack}, \\textbf{Git}, and \\textbf{Node.js} / \\textbf{NPM} / \\textbf{Yarn}.",
+                "\\textbf{Collaborated} with all other teams and \\textbf{implemented new features}, \\textbf{fixed bugs}, \\textbf{improved internal tooling} / \\textbf{deployment pipelines}, for core Glympse products, developer documentation site, and other various projects.",
+                "Took on learning and implementing with new technologies on the fly, including \\textbf{Python}, \\textbf{Bash} / \\textbf{Batch} scripting, \\textbf{Jinja}, \\textbf{.NET}, \\textbf{Wordpress}, \\textbf{Google Analytics}, and \\textbf{Tizen}",
+                "\\textbf{Sole frontend developer onsite for second year}, who directly \\textbf{supported Solutions team in fully randomized role} with quick turnaround time."
             ]
         }
     },
     {
-        "exclude": true,
+        "abbreviate": true,
         "job": "Mobile Applications Developer",
         "org": "Holland America Line",
         "location": "Seattle, WA",
-        "date": "Jun. 2015 - Jul. 2016",
+        "date": "June 2015 - July 2016",
         "cvitems": {
-            "header": "Frontend developer on Mobile Applications team. Went from SDET to developer on the job. Continued support of test efforts where appropriate. Responsible for UI updates, helping to script and implement new deployment process, maintaining and optimizing app environment on all target cruise ships",
             "items": [
+                "Frontend developer on Mobile Applications team. Went from SDET to developer on the job. Continued support of test efforts where appropriate. Responsible for UI updates, helping to script and implement new deployment process, maintaining and optimizing app environment on all target cruise ships",
                 "Part of effort to proof, test, and document new VM deployment setup and process. Traveled to multiple HAL ships (ms Eurodam and Koningsdam, latter solo trip) and successfully deployed new VM to replace older setup. Successful proof of concept of process for all other ships in the fleet. Collaborated with onboard crew to fix data issues, and performed on the fly application upgrades to fix cross team issues",
                 "Performed bash scripting, log analysis, remote deploys and other DevOps support tasks",
                 "Prototyped and implemented coordinate system for displaying event locations",
@@ -75,14 +75,14 @@
         }
     },
     {
-        "exclude": true,
+        "abbreviate": true,
         "job": "SDET",
         "org": "Holland America Line",
         "location": "Seattle, WA",
-        "date": "Dec. 2014 - Jun. 2015",
+        "date": "December 2014 - June 2015",
         "cvitems": {
-            "header": "SDET on Mobile Applications team. Went from QA to SDET on the job. Tested the HAL Mobile Guest Experience Application with both manual and automated techniques. Began contributing bug fixes and functional updates to application code",
             "items": [
+                "SDET on Mobile Applications team. Went from QA to SDET on the job. Tested the HAL Mobile Guest Experience Application with both manual and automated techniques. Began contributing bug fixes and functional updates to application code",
                 "Helped revamp automation test suite to better sync with industry standards",
                 "Brought e2e automated test suite from non-working to functional status",
                 "Switched between manual and automated testing to provide as much quality coverage as possible per project time constraints",
@@ -92,14 +92,14 @@
         }
     },
     {
-        "exclude": true,
+        "abbreviate": true,
         "job": "QA Tester",
         "org": "Holland America Line",
         "location": "Seattle, WA",
-        "date": "Oct. 2014 - Dec. 2014",
+        "date": "October 2014 - December 2014",
         "cvitems": {
-            "header": "Responsible for manual testing of the HAL Mobile Guest Experience Application.",
             "items": [
+                "Responsible for manual testing of the HAL Mobile Guest Experience Application.",
                 "Helped to revamp QA and agile process toward industry standards",
                 "Developed complete test case suite based on existing or lack of business requirements from scratch",
                 "Worked closely with developers on improving user experience with or in spite of available design guidelines",
@@ -110,14 +110,14 @@
         }
     },
     {
-        "exclude": true,
+        "abbreviate": true,
         "job": "Contract QA Tester",
         "org": "LiveAreaLabs",
         "location": "Seattle, WA",
-        "date": "Jul. 2014 - Sep. 2014",
+        "date": "July 2014 - September 2014",
         "cvitems": {
-            "header": "Temporary contract QA for seasonal eCommerce website overhaul",
             "items": [
+                "Temporary contract QA for seasonal eCommerce website overhaul",
                 "Responsible for testing eCommerce websites based on the Demandware platform",
                 "Created test cases based on wireframes and comps",
                 "Investigated and adapted to design inconsistencies and/or shifting client demands",
@@ -126,14 +126,14 @@
         }
     },
     {
-        "exclude": true,
+        "abbreviate": true,
         "job": "QA Engineer",
         "org": "Ratio LLC/Cypress Consulting",
         "location": "Seattle, WA",
-        "date": "Aug. 2012 - Feb. 2014",
+        "date": "August 2012 - February 2014",
         "cvitems": {
-            "header": "Responsible for testing applications and taking lead on testing efforts across multiple projects",
             "items": [
+                "Responsible for testing applications and taking lead on testing efforts across multiple projects",
                 "Performed gray box regression, functional, ad hoc testing on websites and mobile apps",
                 "Automated repetitive tasks and learned test automation techniques",
                 "Utilized tools like Fiddler to simulate unique test scenarios",
@@ -146,30 +146,19 @@
         }
     },
     {
-        "exclude": true,
+        "abbreviate": true,
         "job": "QA Engineer",
         "org": "Zeebo, Inc.",
         "location": "San Diego, CA",
-        "date": "Sep. 2008 - Jan. 2012",
+        "date": "September 2008 - January 2012",
         "cvitems": {
-            "header": "Responsible for UI and hardware black/grey box testing (functional, regression, and more)",
             "items": [
+                "Responsible for UI and hardware black/grey box testing (functional, regression, and more)",
                 "Ran functional tests on new features, wrote bugs to TTPro and later Redmine system, ran regression tests on fixed bugs, took logs using Qualcomm logging systems, ran specialized tests whenever necessary in cooperation with developers",
                 "Coordination with UI developer lead in person and by email",
                 "Helping to design and create a remote/international testing system by creative usage of available resources, to replace failed contract by professional remote testing company, allowing potential testing of device units in China, Brazil, or India from San Diego office",
                 "Configured, created and published UI software packages for Zeebo's initial product throughout the entire commercial lifetime of the product through three years, to all end users in Brazil and Mexico, maintaining revision control and backups of major packages customized for Spanish or Portuguese language where applicable"
             ]
-        }
-    },
-    {
-        "exclude": true,
-        "job": "",
-        "org": "Further details available on Linkedin",
-        "location": "",
-        "date": "",
-        "cvitems": {
-            "header": "",
-            "items": []
         }
     }
 ]
