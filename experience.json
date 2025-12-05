@@ -64,12 +64,11 @@
         "date": "June 2015 - July 2016",
         "cvitems": {
             "items": [
-                "Frontend developer on Mobile Applications team. Went from SDET to developer on the job. Continued support of test efforts where appropriate. Responsible for UI updates, helping to script and implement new deployment process, maintaining and optimizing app environment on all target cruise ships",
-                "Part of effort to proof, test, and document new VM deployment setup and process. Traveled to multiple HAL ships (ms Eurodam and Koningsdam, latter solo trip) and successfully deployed new VM to replace older setup. Successful proof of concept of process for all other ships in the fleet. Collaborated with onboard crew to fix data issues, and performed on the fly application upgrades to fix cross team issues",
-                "Performed bash scripting, log analysis, remote deploys and other DevOps support tasks",
-                "Prototyped and implemented coordinate system for displaying event locations",
-                "Refactored gulp and grunt pipelines for unit testing, local deploys, production packaging, and other logic pathing for multi brand/environment support",
-                "Implemented single-click api mocking, allowing application to run without necessitating being connected to the backend for development and/or demo purposes",
+                "\\textbf{Frontend developer} on Mobile Applications team. \\textbf{Went from SDET to developer on the job.} Continued support of test efforts where appropriate. Responsible for \\textbf{UI updates}, contributed to \\textbf{deployment pipeline} process, maintaining and optimizing app environment on all target cruise ships",
+                "Part of effort to \\textbf{proof, test, and document new VM deployment and process}. Traveled to multiple cruise ships (ms Eurodam and Koningsdam, latter solo trip) and successfully deployed new VM to replace older setup. Successful proof of concept of process for all other ships in the fleet. Collaborated with onboard crew to fix data issues, and performed on the fly application upgrades to fix cross team issues",
+                "Performed \\textbf{bash scripting}, log analysis, remote deploys and other \\textbf{DevOps} support tasks",
+                "\\textbf{Refactored gulp and grunt pipelines} for unit testing, local deploys, production packaging, and other logic pathing for multi brand/environment support",
+                "\\textbf{Implemented single-click api mocking}, allowing application to run without necessitating being connected to the backend for development and/or demo purposes",
                 "Implemented feature flagging plugin and service, allowing application features to be turned on and off via a JSON file without impacting other functionality"
             ]
         }
@@ -82,12 +81,9 @@
         "date": "December 2014 - June 2015",
         "cvitems": {
             "items": [
-                "SDET on Mobile Applications team. Went from QA to SDET on the job. Tested the HAL Mobile Guest Experience Application with both manual and automated techniques. Began contributing bug fixes and functional updates to application code",
-                "Helped revamp automation test suite to better sync with industry standards",
-                "Brought e2e automated test suite from non-working to functional status",
-                "Switched between manual and automated testing to provide as much quality coverage as possible per project time constraints",
-                "Wrote automation tests in Protractor/Jasmine",
-                "Swarmed on application development tasks as the need arose with bug fixes and functionality updates"
+                "SDET on Mobile Applications team. \\textbf{Went from QA to SDET on the job.}",
+                "Brought \\textbf{Protractor} / \\textbf{Jasmine} automation test suite to industry standards and \\textbf{brought test suite from non-working to functional status}",
+                "\\textbf{Swarmed on application development tasks} as the need arose with bug fixes and functionality updates"
             ]
         }
     },
@@ -100,12 +96,10 @@
         "cvitems": {
             "items": [
                 "Responsible for manual testing of the HAL Mobile Guest Experience Application.",
-                "Helped to revamp QA and agile process toward industry standards",
-                "Developed complete test case suite based on existing or lack of business requirements from scratch",
+                "Helped to \\textbf{revamp QA and agile process to industry standards} and \\textbf{enforced documentation best pratices}",
+                "Developed complete \\textbf{test case suite} based on existing or lack of business requirements from scratch",
                 "Worked closely with developers on improving user experience with or in spite of available design guidelines",
-                "Improved communication of quality issues exponentially",
-                "Enforced documentation of processes and standards",
-                "Performed functional and regression testing on responsive application across multiple browsers and platforms"
+                "Performed \\textbf{functional} and regression testing on responsive application across multiple browsers and platforms"
             ]
         }
     },
@@ -118,10 +112,10 @@
         "cvitems": {
             "items": [
                 "Temporary contract QA for seasonal eCommerce website overhaul",
-                "Responsible for testing eCommerce websites based on the Demandware platform",
+                "Responsible for testing eCommerce websites based on the \\textbf{Demandware} platform",
                 "Created test cases based on wireframes and comps",
                 "Investigated and adapted to design inconsistencies and/or shifting client demands",
-                "Performed functional and regression testing on responsive sites across desktop, tablet, and mobile"
+                "Performed functional and regression testing on \\textbf{responsive sites} across desktop, tablet, and mobile"
             ]
         }
     },
@@ -134,14 +128,10 @@
         "cvitems": {
             "items": [
                 "Responsible for testing applications and taking lead on testing efforts across multiple projects",
-                "Performed gray box regression, functional, ad hoc testing on websites and mobile apps",
-                "Automated repetitive tasks and learned test automation techniques",
-                "Utilized tools like Fiddler to simulate unique test scenarios",
-                "Worked closely with developers to optimize testing effort",
+                "Performed gray box regression, functional, ad hoc testing on websites and mobile apps, \\textbf{automating repetitive tasks and reporting}",
+                "Utilized \\textbf{API mocking} tools like \\textbf{Fiddler} to simulate unique test scenarios",
                 "Created builds for testing and for client releases",
-                "Documented build process and environment setup",
-                "Helped strategize testing effort and documented with a formal test plan",
-                "Created a test cases template for the general QA team with automatic statistics"
+                "Documented build process, environment setup, and formal test strategies and test plans"
             ]
         }
     },
@@ -155,8 +145,7 @@
             "items": [
                 "Responsible for UI and hardware black/grey box testing (functional, regression, and more)",
                 "Ran functional tests on new features, wrote bugs to TTPro and later Redmine system, ran regression tests on fixed bugs, took logs using Qualcomm logging systems, ran specialized tests whenever necessary in cooperation with developers",
-                "Coordination with UI developer lead in person and by email",
-                "Helping to design and create a remote/international testing system by creative usage of available resources, to replace failed contract by professional remote testing company, allowing potential testing of device units in China, Brazil, or India from San Diego office",
+                "\\textbf{Helping to design and create a remote/international testing system} by creative usage of available resources, to replace failed contract by professional remote testing company, allowing potential testing of device units in China, Brazil, or India from San Diego office",
                 "Configured, created and published UI software packages for Zeebo's initial product throughout the entire commercial lifetime of the product through three years, to all end users in Brazil and Mexico, maintaining revision control and backups of major packages customized for Spanish or Portuguese language where applicable"
             ]
         }
